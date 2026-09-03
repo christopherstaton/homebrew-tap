@@ -4,8 +4,8 @@ class ClaudeSwap < Formula
   desc "Multi-account switcher for Claude Code (fork: menu bar + statusline)"
   homepage "https://github.com/christopherstaton/claude-swap"
   url "https://github.com/christopherstaton/claude-swap/archive/refs/tags/v0.27.0b1-fork1.tar.gz"
-  sha256 "634904d1022cc87d74aea9b91aa79dabc3dc36202ddef81e6594f9794ad197e0"
   version "0.27.0b1-fork1"
+  sha256 "634904d1022cc87d74aea9b91aa79dabc3dc36202ddef81e6594f9794ad197e0"
   license "MIT"
 
   # macOS-only: bundles rumps/pyobjc so `cswap menubar` works out of the box.
