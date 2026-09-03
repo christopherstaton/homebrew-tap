@@ -8,6 +8,10 @@ class ClaudeSwap < Formula
   sha256 "634904d1022cc87d74aea9b91aa79dabc3dc36202ddef81e6594f9794ad197e0"
   license "MIT"
 
+  # `brew install --HEAD christopherstaton/tap/claude-swap` builds the latest
+  # fork main without re-tagging — handy while iterating on the fork.
+  head "https://github.com/christopherstaton/claude-swap.git", branch: "main"
+
   # macOS-only: bundles rumps/pyobjc so `cswap menubar` works out of the box.
   depends_on :macos
   depends_on "python@3.13"
