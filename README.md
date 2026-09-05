@@ -31,8 +31,11 @@ This installs the `cswap` / `claude-swap` commands. Requires Python 3.12+.
 - Latest fork main: `pipx install "git+https://github.com/christopherstaton/claude-swap.git@main"`
 - Uninstall: `pipx uninstall claude-swap`
 
-The macOS menu bar (`cswap menubar`, via `rumps`/`pyobjc`) is macOS-only; the
-statusline, TUI, and account switching all work on Windows.
+The macOS menu bar (`cswap menubar`, via `rumps`/`pyobjc`) is macOS-only and
+prints a clear "only available on macOS" message there. Verified working on
+Windows: `status`, `config`, `statusline`, `alias`, and `map`. The Textual TUI
+(`cswap tui`) and account switching are cross-platform but exercise best in an
+interactive terminal.
 
 ## Documentation
 
