@@ -3,9 +3,9 @@ class ClaudeSwap < Formula
 
   desc "Multi-account switcher for Claude Code (fork: menu bar + statusline)"
   homepage "https://github.com/christopherstaton/claude-swap"
-  url "https://github.com/christopherstaton/claude-swap/archive/refs/tags/v0.27.0b1-fork9.tar.gz"
-  version "0.27.0b1-fork9"
-  sha256 "52e4f5d68aa44ca381e341f86863ec3bba03e5f77522b7d2f2c663deb3be5710"
+  url "https://github.com/christopherstaton/claude-swap/archive/refs/tags/v0.27.0b1-fork10.tar.gz"
+  version "0.27.0b1-fork10"
+  sha256 "e7d4ecfcd5c4f50591e1dc0e592f184be2255eef8d327116abd6768df9854705"
   license "MIT"
 
   # `brew install --HEAD christopherstaton/tap/claude-swap` builds the latest
