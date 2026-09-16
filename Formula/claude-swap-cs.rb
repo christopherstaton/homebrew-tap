@@ -1,11 +1,11 @@
-class ClaudeSwap < Formula
+class ClaudeSwapCs < Formula
   include Language::Python::Virtualenv
 
-  desc "Multi-account switcher for Claude Code (fork: menu bar + statusline)"
+  desc "Multi-account switcher for Claude Code (christopherstaton fork: menu bar, statusline, harvest, MCP)"
   homepage "https://github.com/christopherstaton/claude-swap"
-  url "https://github.com/christopherstaton/claude-swap/archive/refs/tags/v0.27.0b1-fork12.tar.gz"
-  version "0.27.0b1-fork12"
-  sha256 "70e39a170e0fe00a38a35517ef090219b58b0ab3c27d03c5fdd1f0c97381ce8e"
+  url "https://github.com/christopherstaton/claude-swap/archive/refs/tags/v0.27.0b1-fork13.tar.gz"
+  version "0.27.0b1-fork13"
+  sha256 "988fb4d0162d981c6e4a1886609ec506ece5c45e872ec4f28140c6399b9ce2c9"
   license "MIT"
 
   # `brew install --HEAD christopherstaton/tap/claude-swap` builds the latest
